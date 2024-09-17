@@ -1,0 +1,370 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Белый фон */
+    color: #1e2a38; /* Темно-синий цвет текста */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d1722; /* Темно-синий фон */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff; /* Белый цвет логотипа */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Белый цвет ссылок */
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('../image/background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff; /* Темно-синий цвет заголовка */
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ffffff; /* Темно-синий цвет текста */
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #009688; /* Цвет кнопки */
+    border: none;
+    color: #ffffff; /* Белый цвет текста кнопки */
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px 20px;
+    max-width: 90%;
+    margin: 50px auto;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    background-color: #0d1722; /* Темно-синий фон заголовка */
+    color: #ffffff; /* Белый цвет текста заголовка */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.about p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #1e2a38; /* Темно-синий цвет текста */
+}
+
+.featured, .catalog, .news, .book-details, .contacts {
+    padding: 50px 20px;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    margin: 15px;
+    text-align: center;
+}
+
+.book-item img {
+    max-width: 150px;
+    border-radius: 5px;
+}
+
+.book-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-details img {
+    max-width: 300px;
+    margin-right: 30px;
+}
+
+.book-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff; /* Темно-синий цвет заголовков информации о книге */
+}
+
+.book-info p {
+    margin-bottom: 10px;
+    color: #ffffff; /* Темно-синий цвет текста */
+}
+
+.book-info button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #009688; /* Цвет кнопки */
+    border: none;
+    color: #ffffff; /* Белый цвет текста кнопки */
+    cursor: pointer;
+}
+
+.news {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .news h2 {
+    font-size: 36px;
+    color: #1c1e21;
+    margin-bottom: 30px;
+  }
+  
+  .news-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .news-item {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    flex-basis: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .news-item h3 {
+    font-size: 24px;
+    color: #17a2b8;
+    margin-bottom: 15px;
+  }
+  
+  .news-item p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .news-item .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #17a2b8;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .news-item .read-more:hover {
+    background-color: #138496;
+  }
+  
+
+.contacts p, .contact-info p, .social-media a {
+    margin-bottom: 10px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 20px;
+}
+
+.feedback-form {
+    margin-top: 30px;
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form input, .feedback-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #2a3b4c; /* Темно-синий фон полей ввода */
+    color: #ffffff; /* Белый цвет текста в полях ввода */
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #009688; /* Цвет кнопки */
+    border: none;
+    color: #ffffff; /* Белый цвет текста кнопки */
+    cursor: pointer;
+}
+
+footer {
+    background-color: #0d1722; /* Темно-синий фон подвала */
+    color: #ffffff; /* Белый цвет текста подвала */
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media a {
+    color: #009688; /* Цвет ссылок в социальных сетях */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#search {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid #1e3a8a; /* граница в цвет заголовка */
+    outline: none;
+    display: flex;
+}
+
+#books-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.book-item {
+    background-color: #fff;
+    border: 1px solid #1e40af; /* средне-синий */
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.book-item:hover {
+    box-shadow: 0 0 10px rgba(30, 58, 138, 0.3); /* легкий синий оттенок тени */
+}
+
+.book-item img {
+    max-width: 30%;
+    height: auto;
+    border-bottom: 1px solid #1e40af; /* граница в синих тонах */
+    margin-bottom: 15px;
+}
+
+.book-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #1e3a8a; /* текст заголовка в синем цвете */
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 90%;
+}
+
+.mobile {
+    display: none;
+}
+
+/* Боковое меню */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -410px;
+    height: 100%;
+    width: 360px;
+    background-color: #f8f9fa; /* Светло-серый фон, аналогичный карточкам новостей */
+    padding: 1rem;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 100000;
+    color: #333; /* Темный цвет текста */
+    overflow: auto;
+}
+
+.sidebar.show {
+    right: 0;
+}
+
+.sidebar a {
+    display: block;
+    color: #17a2b8; /* Цвет текста в соответствии с новостями */
+    text-decoration: none;
+    padding: 0.5rem 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    background-color: #17a2b8; /* Цвет фона при наведении аналогичный кнопке "Читать далее" */
+    color: #ffffff !important; /* Белый цвет текста при наведении */
+}
+
+.sidebar .active {
+    background-color: #138496; /* Цвет активного элемента в соответствии с кнопкой при наведении */
+    color: #ffffff !important; /* Белый цвет текста для активного элемента */
+}
+
+a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    img {
+        max-width: 80%;
+    }
+
+    .hided {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .news-item {
+        flex-basis: 100% !important;
+      }
+}
